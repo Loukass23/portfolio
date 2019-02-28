@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "animejs": "^3.0.1",
+    "lodash.isequal": "^4.5.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-icons": "^3.4.0",
+    "react-scripts": "2.1.5",
+    "react-tag-cloud": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
