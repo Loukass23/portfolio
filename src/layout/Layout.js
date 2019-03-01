@@ -16,7 +16,6 @@ function Layout() {
                 <div className="d-flex flex-column h-100 align-items-center justify-content-center">
                     <Header />
                 </div>
-
             </header>
             <section id="about" className="container-fluid about-section text-center">
                 <Word3D><h1 className="layoutTitle">About Me</h1></Word3D>
@@ -24,7 +23,7 @@ function Layout() {
             </section>
             <section id="projects" className="container-fluid projects-section text-center">
 
-                <Word3D><h1 className="layoutTitle">Projects</h1></Word3D>
+                <Word3D><h1 className="layoutTitle" id="project-title">Projects</h1></Word3D>
                 <Projects />
             </section>
         </div>

@@ -8,7 +8,7 @@ function Education() {
                     <div className="col s12 m12 l12">
                         <h1>Education</h1>
                         <ul className="timeline">
-                            <li className="event" data-date="2013_2015">
+                            <li className="event" data-date="2013-2015">
                                 <h3>MSc Computer Aided Engineering</h3>
                                 <p>
                                     Cranfield University, UK
