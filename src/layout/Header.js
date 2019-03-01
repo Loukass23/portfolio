@@ -53,7 +53,7 @@ class Header extends Component {
                     </Anime>
                 </div>
                 <Anime translateX={[{ value: 0 }, { value: 5000, duration: 5000 }]}>
-                    <div className="app-slide" />
+                    <div className="app-slide" ></div>
                 </Anime>
             </div>
         );

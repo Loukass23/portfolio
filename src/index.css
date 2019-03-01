@@ -1,14 +1,17 @@
 body {
   color: #ffffff;
-  font-family: Roboto;
+  font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  font-smooth: always;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
 
+p h1 {
+  font-family: 'Roboto';
+}
 
 
 h2 {
@@ -58,6 +61,7 @@ h2 {
   height: 100%;
   max-width: 1000px;
   width: 100%;
+
 }
 
 .app-slide {
