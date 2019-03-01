@@ -14,7 +14,13 @@ p h1 {
 
 }
 
+.container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #mainNav {
+    background-color: white;
     height: 40px;
     font-family: 'Roboto';
     opacity: .8;
@@ -167,6 +173,10 @@ p h1 {
     background: linear-gradient(to bottom, #161616 0, rgba(231, 231, 231, 0.9) 75%, rgba(253, 253, 253, 0.8) 100%)
 }
 
+#nameCV {
+    color: #64a19d;
+}
+
 #project-title {
     color: #64a19d;
 }
@@ -228,7 +238,8 @@ p h1 {
 }
 
 .contact-section {
-    padding: 5rem 0 0
+    padding: 5rem 0 0;
+    background-color: #64a19d !important
 }
 
 .contact-section .card {

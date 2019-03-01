@@ -3,6 +3,7 @@ import '../css/grayscale.min.css'
 import Header from './Header'
 import About from './About'
 import Projects from './Projects'
+import Contact from './Contact'
 import Word3D from '../wordCloud/Word3D';
 
 
@@ -25,6 +26,11 @@ function Layout() {
 
                 <Word3D><h1 className="layoutTitle" id="project-title">Projects</h1></Word3D>
                 <Projects />
+            </section>
+
+            <section className="container-fluid contact-section text-center mb-3">
+                <Word3D><h1 className="layoutTitle" id="contact" >Contact</h1></Word3D>
+                <Contact />
             </section>
         </div>
     )
