@@ -6,7 +6,7 @@ function WorkExp() {
             <div className="container" id="content">
                 <div className="row">
                     <div className="col s12 m12 l12">
-                        <h1>Work Experience</h1>
+                        <div className="h2">Work Experience</div>
                         <ul className="timeline">
                             <li className="event" data-date="2019">
                                 <h3> Ubiqum Code Academy</h3>

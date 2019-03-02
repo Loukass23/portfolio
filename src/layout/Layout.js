@@ -13,7 +13,7 @@ function Layout() {
     return (
         <div >
 
-            <header className="masthead mt-1" width='1000px' id="page-top">
+            <header className="masthead mt-1" height="100vh" width='1000px' id="page-top">
                 <div className="d-flex flex-column h-100 align-items-center justify-content-center">
                     <Header />
                 </div>

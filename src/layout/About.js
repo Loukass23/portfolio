@@ -6,6 +6,7 @@ import WorkExp from '../component/WorkExp'
 import Education from '../component/Education'
 import Carousel from 'react-bootstrap/Carousel'
 import Word3D from '../wordCloud/Word3D';
+import CV from '../img/Lucas Dupias CV.pdf'
 
 function About() {
   const styleAvatar = {
@@ -34,8 +35,8 @@ function About() {
                 </a>
               </div>
             </div>
-            <div className="row d-flex align-items-end flex-column mr-5">
-              <img src="https://www.codewars.com/users/Loukass23/badges/micro" alt="" />
+            <div className="row d-flex align-items-end flex-column mr-4">
+              <img src="https://www.codewars.com/users/Loukass23/badges/small" alt="" />
             </div>
             <div className="card-title mt-3"><h3>Junior Full Stack Developer – Aircraft PLM Engineer</h3></div>
             <div className="card-body">
@@ -61,7 +62,7 @@ function About() {
 
               </div>
             </div>
-            <a href="#" className="btn btn-primary">Download CV</a>
+            <a href={CV} className="btn btn-primary">Download CV</a>
 
 
 

@@ -6,7 +6,8 @@ function Education() {
             <div className="container" id="content">
                 <div className="row">
                     <div className="col s12 m12 l12">
-                        <h1>Education</h1>
+                        <div className="h2">Education</div>
+
                         <ul className="timeline">
                             <li className="event" data-date="2013-2015">
                                 <h3>MSc Computer Aided Engineering</h3>
