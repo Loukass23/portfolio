@@ -33,9 +33,10 @@ class Header extends Component {
                                 </Anime>
                             </div>
                         </Anime>
-                        <Anime opacity={[0, 1]} delay={7000} duration={10000}>
-                            <div className="header-right-column d-flex">
-                                <p>Built with <img src={ReactLogo} alt="" /></p>
+                        <Anime opacity={[0, 1]} delay={5000} duration={10000}>
+                            <div className="header-right-column d-flex" id="built-whith">
+                                <div className="text">Built with <img src={ReactLogo} alt="" /></div>
+
                             </div>
                         </Anime>
                     </div>

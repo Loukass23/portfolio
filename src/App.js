@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Layout from './layout/Layout'
-import Navbar from './layout/Navbar'
+import Navbar from './layout/Navbar2'
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="portfolio">
         <Navbar />
         <Layout />
       </div>
