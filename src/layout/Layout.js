@@ -19,7 +19,7 @@ function Layout() {
                     <Header />
                 </div>
             </header>
-            <section id="about" className="container-fluid about-section text-center">
+            <section id="about" className="container-fluid about-section text-center ">
                 <Word3D><h1 className="layoutTitle">About Me</h1></Word3D>
                 <About />
             </section>

@@ -105,6 +105,7 @@ p h1 {
 }
 
 #built-whith {
+    margin-top: 6vh;
     display: none;
 }
 
@@ -172,7 +173,7 @@ p h1 {
 }
 
 .about-section {
-    padding-top: 7rem;
+    padding-top: 8rem;
     background: -webkit-gradient(linear, left top, left bottom, from(#ece7e7), color-stop(75%, rgba(22, 22, 22, .9)), to(rgba(248, 248, 248, 0.8)));
     background: linear-gradient(to bottom, #161616 0, rgba(231, 231, 231, 0.9) 75%, rgba(253, 253, 253, 0.8) 100%)
 }

@@ -24,7 +24,7 @@ function About() {
             <div className="row d-flex justify-content-around align-content-center">
 
               <Avatar className="card-img-top" src={Photo} id="avatar" style={styleAvatar} width="80px" height="80px" />
-              <div id="nameCV" className="h1 mt-5"><Word3D>Lucas Dupias</Word3D></div>
+              <div id="nameCV" className="h1 mt-3"><Word3D>Lucas Dupias</Word3D></div>
               <div >
                 <a className="px-2" href="https://www.linkedin.com/in/lucasdupias" >
                   <i className="fab fa-5x fa-linkedin"></i>

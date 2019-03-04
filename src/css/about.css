@@ -46,10 +46,11 @@ h1.header {
 .timeline h1,
 .timeline h2,
 .timeline h3 {
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 .timeline .event {
+
     border-bottom: 1px solid rgba(160, 160, 160, 0.2);
     padding-bottom: 15px;
     margin-bottom: 10px;
@@ -69,12 +70,14 @@ h1.header {
     top: 0;
 }
 
+
 .timeline .event:before {
-    left: -177.5px;
+    right: 10px;
+    top: -20px;
     color: #212121;
     content: attr(data-date);
     text-align: right;
-    /*  font-weight: 100;*/
+
 
 
     min-width: 120px;

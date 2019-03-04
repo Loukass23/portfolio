@@ -10,6 +10,11 @@ body {
   width: 100vw;
 }
 
+html {
+  font-family: 'Roboto';
+  scroll-behavior: smooth;
+}
+
 
 .portfolio {
   width: 100vw;

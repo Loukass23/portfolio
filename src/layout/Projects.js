@@ -3,6 +3,8 @@ import Bookstore from '../img/bookstore.jpg';
 import TGIF from '../img/TGIF.jpg';
 import JavaVideo from '../img/battleship.mp4'
 import FootVideo from '../img/football app.mp4'
+import { Divider } from '@material-ui/core';
+
 
 function Projects() {
     return (
@@ -23,7 +25,7 @@ function Projects() {
                                         <p className="text-black-50 mb-0">Project displaying a collection of books with details retrieved from an online API</p>
                                         <p>Built with Javascript , Vue.js, HTML, CSS</p>
 
-                                        <div className="row d-flex text-center">
+                                        <div className="row d-flex justify-content-center text-center">
 
                                             <i className="fab fa-3x fa-vuejs"></i>
                                             <i className="fab fa-3x fa-js"></i>
@@ -35,9 +37,10 @@ function Projects() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="row align-items-center no-gutters mb-4 mb-lg-5">
+                            <hr />
+                            <div className="row align-items-center no-gutters mt-2 mb-4 mb-lg-5">
                                 <div className="col-xl-8 col-lg-7">
-                                    <video class="video-fluid pr-2" width="30%" height="20%" controls autoplay='true' loop muted>
+                                    <video className="video-fluid pr-2" width="30%" height="20%" controls autoPlay={true} loop muted>
                                         <source src={FootVideo} type="video/mp4" />
                                     </video>
                                 </div>
@@ -48,7 +51,7 @@ function Projects() {
                                         <p>Built with Firebase, Javascript, Vue.js , HTML, CSS</p>
 
 
-                                        <div className="row d-flex text-center">
+                                        <div className="row d-flex justify-content-center">
                                             <i className="fab fa-3x fa-vuejs"></i>
                                             <i className="fab fa-3x fa-css3"></i>
                                             <i className="fab fa-3x fa-js"></i>
@@ -61,6 +64,7 @@ function Projects() {
 
 
                             </div>
+                            <hr />
                             <div className="row align-items-center no-gutters mb-4 mb-lg-5">
                                 <div className="col-xl-8 col-lg-7">
                                     <img className="img-fluid mb-3 mb-lg-0 pr-2" src={TGIF} alt="">
@@ -73,7 +77,7 @@ function Projects() {
                                         <p>Built with Javascript , HTML, CSS</p>
 
 
-                                        <div className="row d-flex text-center">
+                                        <div className="row d-flex justify-content-center">
                                             <i className="fab fa-3x fa-css3"></i>
                                             <i className="fab fa-3x fa-js"></i>
                                             <i className="fab fa-3x fa-html5"></i>
@@ -83,11 +87,11 @@ function Projects() {
                                     </div>
                                 </div>
 
-
                             </div>
+                            <hr />
                             <div className="row align-items-center no-gutters mb-4 mb-lg-5">
                                 <div className="col-xl-8 col-lg-7">
-                                    <video class="video-fluid pr-2" width="100%" height="100%" controls autoplay='true' loop muted>
+                                    <video className="video-fluid pr-2" width="100%" height="100%" controls autoPlay={true} loop muted>
                                         <source src={JavaVideo} type="video/mp4" />
                                     </video>
 
@@ -99,7 +103,7 @@ function Projects() {
                                         <p>Back end: Java 8, Spring Boot, RESTfull </p>
                                         <p>Front end: Javascript , HTML, CSS, Bootstrap</p>
 
-                                        <div className="row d-flex text-center">
+                                        <div className="row d-flex justify-content-center">
                                             <i className="fab fa-3x fa-java"></i>
                                             <i className="fab fa-3x fa-vuejs"></i>
                                             <i className="fab fa-3x fa-js"></i>
