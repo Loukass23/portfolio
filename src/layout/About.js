@@ -35,14 +35,15 @@ function About() {
               </div>
             </div>
             <div className="row d-flex align-items-end flex-column mr-4">
-              <img src="https://www.codewars.com/users/Loukass23/badges/small" alt="" />
+              {/* <img src="https://www.codewars.com/users/Loukass23/badges/small" alt="" /> */}
             </div>
             <div className="card-title mt-3"><h3>Junior Full Stack Developer – Aircraft PLM Engineer</h3></div>
             <div className="card-body">
-              <p className="card-text">New career aspirations have led shift to full stack developer.
-            from aircraft PLM engineer to become Full Stack developer. Having a professional experience as a technical solution in France since 2013.
-             My background in the Aeronautic industry and more particularly in PLM (Product Lifecycle Management).
-              Versatile. I enjoy living in foreign countries and am capable of easy integration as I have been an exchange student in USA and previously studied in UK.</p>
+              <p className="card-text">An innovative and motivated junior full stack developer aiming to
+              achieve a position that will showcase my current knowledge and skills, while also acquiring new
+              competencies. Having professional experience as a technical solution engineer,
+              I possess technical capabilities with my extensive background in the Aeronautic industry,
+              and in Product Lifecycle Management.</p>
             </div>
             <div className="row" id="carousel">
               <div className="col sm10" >
