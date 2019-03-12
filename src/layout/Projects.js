@@ -29,7 +29,7 @@ function Projects() {
 
 
                                         <div className="row d-flex justify-content-center">
-                                            <i className="fab fa-3x fa-reactjs"></i>
+                                            <i className="fab fa-3x fa-react"></i>
                                             <i className="fab fa-3x fa-css3"></i>
                                             <i className="fab fa-3x fa-js"></i>
                                             <i className="fab fa-3x fa-html5"></i>
