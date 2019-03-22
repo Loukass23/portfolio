@@ -34,6 +34,18 @@ h2 {
   text-transform: uppercase;
 }
 
+#developer {
+  /* color: #BF3B67; */
+  color: hsl(194, 85%, 61%);
+  font-size: 30px;
+  line-height: 18px;
+  letter-spacing: 6.1px;
+  text-align: center;
+  font-weight: 900;
+
+
+}
+
 .app-outer {
   align-items: center;
   bottom: 0;
@@ -88,6 +100,7 @@ h2 {
 }
 
 .header {
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -118,13 +131,23 @@ h2 {
   transform: scale(1.2);
 }
 
+@media (min-width:992px) {
+  .cloud {
+    flex: 1;
+    font-size: 2em;
+  }
+}
+
 .cloud {
   flex: 1;
   font-size: 2em;
 }
 
 
-
 .word3d {
   transition: 1.4s;
+}
+
+#page-top {
+  height: 100vh;
 }

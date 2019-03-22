@@ -19,11 +19,12 @@ const styles = {
 };
 
 const words = {
-  large: ['React.js', 'JavaScript', 'Vue.js', 'Java', 'Engineer'],
+  large: ['React.js', 'JavaScript', 'Vue.js', 'Java', 'Engineer', 'Node.js'],
   normal: [
     'HTML5',
     'CSS3',
-    'JPA',
+    'Spring Boot',
+    'MaterialUI',
     'RESTFull',
     'Redux',
     'Frameworks',
@@ -37,8 +38,10 @@ const words = {
     'Firebase',
     'ES6',
     'Git',
+    'Express',
+    'Materialize'
   ],
-  small: ['Aircraft', 'Photoshop', 'After Effect', 'Premiere', 'CAD', 'Travel', 'Adaptability ', 'Innovation', 'French', 'IT'],
+  small: ['Aircraft', 'Photoshop', 'Vuetify', 'After Effect', 'Premiere', 'CAD', 'Adaptability ', 'Innovation', '', 'IT'],
 };
 
 class WordCloud extends Component {

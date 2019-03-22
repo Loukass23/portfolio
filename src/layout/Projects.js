@@ -4,7 +4,6 @@ import TGIF from '../img/TGIF.jpg';
 import JavaVideo from '../img/battleship.mp4'
 import FootVideo from '../img/football app.mp4'
 import CityVideo from '../img/cityapp.mp4'
-import { Divider } from '@material-ui/core';
 
 
 function Projects() {
@@ -21,20 +20,33 @@ function Projects() {
                                         <source src={CityVideo} type="video/mp4" />
                                     </video>
                                 </div>
-                                <div className="col-xl-4 col-lg-5">
+                                <div className="col-xl-4 col-lg-5 ">
                                     <div className="featured-text text-center text-lg-left">
-                                        <h4>City-Itinerary Web App</h4>
-                                        <p className="text-black-50 mb-0">Work in Progress: Mobile web app for community itineraries sharing</p>
-                                        <p>Built with Firebase(server functions, database, storage), Javascript, React.js/Redux , HTML, CSS</p>
-
-
-                                        <div className="row d-flex justify-content-center">
-                                            <i className="fab fa-3x fa-react"></i>
-                                            <i className="fab fa-3x fa-css3"></i>
-                                            <i className="fab fa-3x fa-js"></i>
-                                            <i className="fab fa-3x fa-html5"></i>
+                                        <h4>FlightoClock App</h4>
+                                        <p className=" mb-0">Mobile web app for blogger influencer</p>
+                                        <div className="row d-flex justify-content-center my-2">
+                                            <i className="fab fa-2x fa-react"></i>
+                                            <i className="fab fa-2x fa-css3"></i>
+                                            <i className="fab fa-2x fa-js"></i>
+                                            <i className="fab fa-2x fa-html5"></i>
                                         </div>
-                                        <a href="https://city-itinerary.firebaseapp.com/">Link to site</a>
+                                        <ul className='mx-auto text-black-50'>
+                                            <li>Work in Progress</li>
+                                            <li>Instagram API</li>
+                                            <li>User signIn</li>
+                                            <li>Image upload and conpressing</li>
+                                            <li>Firebase(server functions, database, storage)</li>
+                                            <li>Javascript, React.js/Redux , HTML, CSS, Materialize</li>
+                                        </ul>
+
+
+
+
+                                        <div className="row justify-content-center ">
+                                            <a href="https://city-itinerary.firebaseapp.com/" target="_blank" className="btn btn-primary mx-2">Demo</a>
+                                            <a href="https://github.com/Loukass23/city-itinerary" target="_blank" className="btn btn-primary mx-2">Source</a>
+                                        </div>
+
 
                                     </div>
                                 </div>
@@ -50,18 +62,28 @@ function Projects() {
                                 <div className="col-xl-4 col-lg-5">
                                     <div className="featured-text text-center text-lg-left">
                                         <h4>Bookstore</h4>
-                                        <p className="text-black-50 mb-0">Project displaying a collection of books with details retrieved from an online API</p>
-                                        <p>Built with Javascript , Vue.js, HTML, CSS</p>
+                                        <div className="row text-teal-50 d-flex justify-content-center text-center">
 
-                                        <div className="row d-flex justify-content-center text-center">
-
-                                            <i className="fab fa-3x fa-vuejs"></i>
-                                            <i className="fab fa-3x fa-js"></i>
-                                            <i className="fab fa-3x fa-html5"></i>
-                                            <i className="fab fa-3x fa-css3"></i>
+                                            <i className="fab fa-2x fa-vuejs"></i>
+                                            <i className="fab fa-2x fa-js"></i>
+                                            <i className="fab fa-2x fa-html5"></i>
+                                            <i className="fab fa-2x fa-css3"></i>
 
                                         </div>
-                                        <a href=" https://lucasd-bookstore-vuecli.netlify.com/">Link to site</a>
+                                        <p className="">Project displaying a collection of books with details retrieved from an online API</p>
+
+                                        <ul className='mx-auto text-black-50'>
+                                            <li>Flip Card Display</li>
+                                            <li>Search</li>
+                                            <li>API Call</li>
+                                            <li>Javascript , Vue.js, HTML, CSS</li>
+                                        </ul>
+                                        <div className="row justify-content-center ">
+                                            <a href="https://lucasd-bookstore-vuecli.netlify.com/" target="_blank" className="btn btn-primary mx-2">Demo</a>
+                                            <a href="https://github.com/Loukass23/BookStore_Vue-CLI" target="_blank" className="btn btn-primary mx-2">Source</a>
+                                        </div>
+
+
                                     </div>
                                 </div>
                             </div>
@@ -75,17 +97,25 @@ function Projects() {
                                 <div className="col-xl-4 col-lg-5">
                                     <div className="featured-text text-center text-lg-left">
                                         <h4>Football Web App</h4>
-                                        <p className="text-black-50 mb-0">Mobile app for displaying main football championships data with user account and favorites management  </p>
-                                        <p>Built with Firebase, Javascript, Vue.js , HTML, CSS</p>
-
-
                                         <div className="row d-flex justify-content-center">
-                                            <i className="fab fa-3x fa-vuejs"></i>
-                                            <i className="fab fa-3x fa-css3"></i>
-                                            <i className="fab fa-3x fa-js"></i>
-                                            <i className="fab fa-3x fa-html5"></i>
+                                            <i className="fab fa-2x fa-vuejs"></i>
+                                            <i className="fab fa-2x fa-css3"></i>
+                                            <i className="fab fa-2x fa-js"></i>
+                                            <i className="fab fa-2x fa-html5"></i>
                                         </div>
-                                        <a href="https://footballapp.netlify.com">Link to site</a>
+                                        <p className="">Mobile app for displaying main football championships data with user account and favorites management  </p>
+                                        <ul className='mx-auto text-black-50'>
+                                            <li>User DB /Sign in / profile</li>
+                                            <li>Favorite management</li>
+                                            <li>Chat</li>
+                                            <li>Firebase, Javascript, Vue.js , HTML, CSS</li>
+                                        </ul>
+
+                                        <div className="row justify-content-center ">
+                                            <a href="https://footballapp.netlify.com" target="_blank" className="btn btn-primary mx-2">Demo</a>
+                                            <a href="https://github.com/Loukass23/footballApp" target="_blank" className="btn btn-primary mx-2">Source</a>
+                                        </div>
+
 
                                     </div>
                                 </div>
@@ -101,16 +131,22 @@ function Projects() {
                                 <div className="col-xl-4 col-lg-5">
                                     <div className="featured-text text-center text-lg-left">
                                         <h4>TGIF</h4>
-                                        <p className="text-black-50 mb-0">Display of governements data and statistics pulled from official API </p>
-                                        <p>Built with Javascript , HTML, CSS</p>
-
-
                                         <div className="row d-flex justify-content-center">
-                                            <i className="fab fa-3x fa-css3"></i>
-                                            <i className="fab fa-3x fa-js"></i>
-                                            <i className="fab fa-3x fa-html5"></i>
+                                            <i className="fab fa-2x fa-css3"></i>
+                                            <i className="fab fa-2x fa-js"></i>
+                                            <i className="fab fa-2x fa-html5"></i>
                                         </div>
-                                        <a href=" https://loukass23-tgif.netlify.com">Link to site</a>
+                                        <p className="">Display of governements data and statistics pulled from official API </p>
+                                        <ul className='mx-auto text-black-50'>
+                                            <li>Vanilla Javascript only</li>
+                                            <li>API Calls</li>
+                                            <li>Statistics</li>
+                                            <li>Javascript , HTML, CSS</li>
+                                        </ul>
+                                        <div className="row justify-content-center ">
+                                            <a href="https://loukass23-tgif.netlify.com" target="_blank" className="btn btn-primary mx-2">Demo</a>
+                                            <a href="https://github.com/Loukass23/TGIF" target="_blank" className="btn btn-primary mx-2">Source</a>
+                                        </div>
 
                                     </div>
                                 </div>
@@ -127,17 +163,23 @@ function Projects() {
                                 <div className="col-xl-4 col-lg-5">
                                     <div className="featured-text text-center text-lg-left">
                                         <h4>Battleship</h4>
-                                        <p className="text-black-50 mb-0">Full stack battleship video game </p>
-                                        <p>Back end: Java 8, Spring Boot, RESTfull </p>
-                                        <p>Front end: Javascript , HTML, CSS, Bootstrap</p>
-
                                         <div className="row d-flex justify-content-center">
-                                            <i className="fab fa-3x fa-java"></i>
-                                            <i className="fab fa-3x fa-vuejs"></i>
-                                            <i className="fab fa-3x fa-js"></i>
-                                            <i className="fab fa-3x fa-html5"></i>
-                                            <i className="fab fa-3x fa-css3"></i>
+                                            <i className="fab fa-2x fa-java"></i>
+                                            <i className="fab fa-2x fa-vuejs"></i>
+                                            <i className="fab fa-2x fa-js"></i>
+                                            <i className="fab fa-2x fa-html5"></i>
+                                            <i className="fab fa-2x fa-css3"></i>
 
+                                        </div>
+                                        <p className="">Full stack battleship video game </p>
+                                        <ul className='mx-auto text-black-50'>
+                                            <li>Full Stack</li>
+                                            <li>Object Oriented</li>
+                                            <li>Back end: Java 8, Gradle, Spring Boot, JPA, RESTfull</li>
+                                            <li>Front end: Javascript, Vue , HTML, CSS, Bootstrap</li>
+                                        </ul>
+                                        <div className="row justify-content-center ">
+                                            <a href="https://github.com/Loukass23/battleship" target="_blank" className="btn btn-primary mx-2">Source</a>
                                         </div>
                                     </div>
                                 </div>

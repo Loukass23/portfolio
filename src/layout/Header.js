@@ -29,18 +29,20 @@ class Header extends Component {
                                     easing={'easeInOutQuad'}
                                     duration={1000}
                                 >
-                                    <h2>Junior Full Stack Developper</h2>
+                                    <h2 >Junior Full Stack <span id='developer'>Developer</span></h2>
                                 </Anime>
+
                             </div>
                         </Anime>
                         <Anime opacity={[0, 1]} delay={5000} duration={10000}>
                             <div className="header-right-column d-flex" id="built-whith">
-                                <div className="text">Built with <img src={ReactLogo} alt="" /></div>
+                                <p>Built with <img src={ReactLogo} alt="" /></p>
 
                             </div>
                         </Anime>
                     </div>
                     <WordCloud />
+
                     <Anime
                         opacity={[0, 0.5]}
                         translateY={[100, 0]}
