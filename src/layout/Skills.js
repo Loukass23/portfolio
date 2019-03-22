@@ -3,19 +3,14 @@ import Photo from '../img/photo.png';
 import CV from '../img/Lucas Dupias CV.pdf'
 import '../css/about.css'
 
-import Word3D from '../wordCloud/Word3D';
-
 function Skills() {
-    const styleAvatar = {
-        width: '300px',
 
-    };
     return (
-        <div className="container justify-content">
-            <div className="col sm10">
+        <div className=" justify-content">
+            <div className="col sm12">
                 <div className="card flex-row flex-wrap justify-content-around align-content-center" style={{ backgroundColor: "white" }} >
                     <div className="col-md-6">
-                        <img className="card-img-bottom" src={Photo} alt="" title="" />
+                        <img className="card-img-bottom" style={{ width: "80%" }} src={Photo} alt="" title="" />
                     </div>
                     <div className="col-md-6">
                         <div className="card" style={{ border: 'none' }}>
@@ -30,7 +25,7 @@ function Skills() {
 
 
                             </div>
-                            <div class="mt-2">
+                            <div className="mt-2">
 
                                 < ul className="navbar-nav ml-0" >
                                     <li>
@@ -46,12 +41,11 @@ function Skills() {
                                 </ ul>
                             </div>
                         </div>
-
                     </div>
-                    <div class="w-100"></div>
-                    <div class="card-footer w-100 text-muted">
-                        <table class="table">
-                            <thead class="">
+                    <div className="w-100"></div>
+                    <div style={{ backgroundColor: 'white' }} className="card-footer w-100 text-muted">
+                        <table className="table striped centered responsive-table">
+                            <thead className="">
                                 <tr>
                                     <th>Front-End</th>
                                     <th >Frameworks</th>

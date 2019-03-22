@@ -12,10 +12,9 @@ function Navbar2() {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="myNav">
-                < ul className="navbar-nav ml-0" >
+                < ul className="navbar-nav ml-0 text-center" >
                     <li>
                         <a href={CV} className="px-2" target="_blank"> <i className="fas fa-2x fa-portrait" ></i></a>
-
                         <a className="px-2" href="https://www.linkedin.com/in/lucasdupias" target="_blank">
                             <i className="fab fa-2x fa-linkedin"></i>
                         </a>
@@ -24,18 +23,16 @@ function Navbar2() {
                         </a>
                     </li>
                 </ ul>
-                < ul className="navbar-nav ml-auto" >
-
-
+                < ul className="navbar-nav ml-auto text-center" >
                     <li className="nav-item">
                         <a className="nav-link" href="#about">About Me</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#projects">Projects</a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a className="nav-link" href="#resume">Resume</a>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                         <a className="nav-link" href="#contact">Get in touch</a>
                     </li>

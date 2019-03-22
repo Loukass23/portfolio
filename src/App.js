@@ -7,7 +7,7 @@ import Navbar from './layout/Navbar2'
 class App extends Component {
   render() {
     return (
-      <div className="portfolio">
+      <div style={{ maxWidth: "100vw" }} className="portfolio">
         <Navbar />
         <Layout />
       </div>

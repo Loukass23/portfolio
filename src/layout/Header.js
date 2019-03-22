@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Anime from './Anime';
 import WordCloud from '../wordCloud/WordCloud';
 import Word3D from '../wordCloud/Word3D';
-import ReactLogo from '../img/react_logo.png'
 
 class Header extends Component {
     render() {
@@ -36,7 +35,6 @@ class Header extends Component {
                         </Anime>
                         <Anime opacity={[0, 1]} delay={5000} duration={10000}>
                             <div className="header-right-column d-flex" id="built-whith">
-                                <p>Built with <img src={ReactLogo} alt="" /></p>
 
                             </div>
                         </Anime>
