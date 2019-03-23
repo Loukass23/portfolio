@@ -4,7 +4,6 @@ import CV from '../img/Lucas Dupias CV.pdf'
 import '../css/about.css'
 
 function Skills() {
-
     return (
         <div className=" justify-content">
             <div className="col sm12">
@@ -29,12 +28,12 @@ function Skills() {
 
                                 < ul className="navbar-nav ml-0" >
                                     <li>
-                                        <a href={CV} className="px-2" target="_blank"> <i className="fas fa-2x fa-portrait"></i></a>
+                                        <a href={CV} className="btn btn-primary mx-2 px-2" target="_blank"> CV <i className="fas fa-2x fa-portrait"></i></a>
 
-                                        <a className="px-2" href="https://www.linkedin.com/in/lucasdupias" target="_blank">
+                                        <a className="btn btn-primary mx-2 px-2" href="https://www.linkedin.com/in/lucasdupias" target="_blank">
                                             <i className="fab fa-2x fa-linkedin"></i>
                                         </a>
-                                        <a className="px-2" href="https://github.com/Loukass23" target="_blank">
+                                        <a className="btn btn-primary mx-2 px-2" href="https://github.com/Loukass23" target="_blank">
                                             <i className="fab fa-2x fa-github"></i>
                                         </a>
                                     </li>
@@ -43,7 +42,7 @@ function Skills() {
                         </div>
                     </div>
                     <div className="w-100"></div>
-                    <div style={{ backgroundColor: 'white' }} className="card-footer w-100 text-muted">
+                    <div id="skillsTable" className="card-footer w-100 text-muted">
                         <table className="table striped centered responsive-table">
                             <thead className="">
                                 <tr>

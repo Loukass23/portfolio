@@ -17,12 +17,50 @@ function Projects() {
                             <div className="row align-items-center no-gutters mt-2 mb-4 mb-lg-5">
                                 <div className="col-xl-8 col-lg-7">
                                     <video className="video-fluid pr-2" width="30%" height="20%" controls autoPlay={true} loop muted>
+                                        <source src="{CityVideo}" type="video/mp4" />
+                                    </video>
+                                </div>
+                                <div className="col-xl-4 col-lg-5 ">
+                                    <div className="featured-text text-center text-lg-left">
+                                        <h4>Brewery Web App</h4>
+                                        <p className=" mb-0">Collaborative project for Beer reviews</p>
+                                        <div className="row d-flex justify-content-center my-2">
+                                            <i className="fab fa-2x fa-react"></i>
+                                            <i className="fab fa-2x fa-css3"></i>
+                                            <i className="fab fa-2x fa-js"></i>
+                                            <i className="fab fa-2x fa-html5"></i>
+                                        </div>
+                                        <ul className='mx-auto text-black-50'>
+                                            <li>Work in Progress</li>
+                                            <li>Collaborative work</li>
+                                            <li>User signIn</li>
+                                            <li>Image upload and conpressing</li>
+                                            <li>Firebase(server functions, database, storage)</li>
+                                            <li>Javascript, Express, MongoDB React.js/Redux , HTML, CSS, Materialize</li>
+                                        </ul>
+
+
+
+
+                                        <div className="row justify-content-center ">
+                                            <a href="" target="_blank" className="btn btn-primary mx-2">Demo</a>
+                                            <a href="https://github.com/Loukass23/brewery-mern" target="_blank" className="btn btn-primary mx-2">Source</a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div className="row align-items-center no-gutters mt-2 mb-4 mb-lg-5">
+                                <div className="col-xl-8 col-lg-7">
+                                    <video className="video-fluid pr-2" width="30%" height="20%" controls autoPlay={true} loop muted>
                                         <source src={CityVideo} type="video/mp4" />
                                     </video>
                                 </div>
                                 <div className="col-xl-4 col-lg-5 ">
                                     <div className="featured-text text-center text-lg-left">
-                                        <h4>FlightoClock App</h4>
+                                        <h4>FlightoClock Web App</h4>
                                         <p className=" mb-0">Mobile web app for blogger influencer</p>
                                         <div className="row d-flex justify-content-center my-2">
                                             <i className="fab fa-2x fa-react"></i>

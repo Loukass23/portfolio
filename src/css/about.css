@@ -174,3 +174,9 @@ a.portfolio-link {
 .carousel-indicators {
     display: none;
 }
+
+#skillsTable {
+    overflow-x: auto;
+    background-color: white;
+
+}
