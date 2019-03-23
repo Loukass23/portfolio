@@ -4,6 +4,7 @@ import TGIF from '../img/TGIF.jpg';
 import JavaVideo from '../img/battleship.mp4'
 import FootVideo from '../img/football app.mp4'
 import CityVideo from '../img/cityapp.mp4'
+import Brewery from '../img/Brewery.jpg'
 
 
 function Projects() {
@@ -16,9 +17,9 @@ function Projects() {
                             <p className="card-text"></p>
                             <div className="row align-items-center no-gutters mt-2 mb-4 mb-lg-5">
                                 <div className="col-xl-8 col-lg-7">
-                                    <video className="video-fluid pr-2" width="30%" height="20%" controls autoPlay={true} loop muted>
-                                        <source src="{CityVideo}" type="video/mp4" />
-                                    </video>
+                                    <img className="img-fluid mb-3 mb-lg-0" src={Brewery} alt="">
+                                    </img>
+
                                 </div>
                                 <div className="col-xl-4 col-lg-5 ">
                                     <div className="featured-text text-center text-lg-left">
@@ -32,11 +33,10 @@ function Projects() {
                                         </div>
                                         <ul className='mx-auto text-black-50'>
                                             <li>Work in Progress</li>
+                                            <li>M.E.R.N stack</li>
                                             <li>Collaborative work</li>
-                                            <li>User signIn</li>
-                                            <li>Image upload and conpressing</li>
-                                            <li>Firebase(server functions, database, storage)</li>
-                                            <li>Javascript, Express, MongoDB React.js/Redux , HTML, CSS, Materialize</li>
+                                            <li>MongoDB/ Express</li>
+                                            <li>Javascript, Express, Node.js MongoDB React.js/Redux , HTML, CSS, Materialize</li>
                                         </ul>
 
 

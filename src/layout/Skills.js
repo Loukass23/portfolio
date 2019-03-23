@@ -24,7 +24,7 @@ function Skills() {
 
 
                             </div>
-                            <div className="mt-2">
+                            <div className="my-2">
 
                                 < ul className="navbar-nav ml-0" >
                                     <li>
