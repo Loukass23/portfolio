@@ -17,7 +17,7 @@ function Projects() {
                             <p className="card-text"></p>
                             <div className="row align-items-center no-gutters mt-2 mb-4 mb-lg-5">
                                 <div className="col-xl-8 col-lg-7">
-                                    <img className="img-fluid mb-3 mb-lg-0" src={Brewery} alt="">
+                                    <img width="80%" className="img-fluid mb-3 mb-lg-0" src={Brewery} alt="">
                                     </img>
 
                                 </div>
@@ -34,7 +34,7 @@ function Projects() {
                                         <ul className='mx-auto text-black-50'>
                                             <li>Work in Progress</li>
                                             <li>M.E.R.N stack</li>
-                                            <li>Collaborative work</li>
+                                            <li>Collaborative work on Github</li>
                                             <li>MongoDB/ Express</li>
                                             <li>Javascript, Express, Node.js MongoDB React.js/Redux , HTML, CSS, Materialize</li>
                                         </ul>
@@ -43,7 +43,7 @@ function Projects() {
 
 
                                         <div className="row justify-content-center ">
-                                            <a href="" target="_blank" className="btn btn-primary mx-2">Demo</a>
+                                            {/* <a href="" target="_blank" className="btn btn-primary mx-2">Demo</a> */}
                                             <a href="https://github.com/Loukass23/brewery-mern" target="_blank" className="btn btn-primary mx-2">Source</a>
                                         </div>
 

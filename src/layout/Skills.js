@@ -5,8 +5,8 @@ import '../css/about.css'
 
 function Skills() {
     return (
-        <div className=" justify-content">
-            <div className="col sm12">
+        <div className=" container justify-content">
+            <div className="col sm10">
                 <div className="card flex-row flex-wrap justify-content-around align-content-center" style={{ backgroundColor: "white" }} >
                     <div className="col-md-6">
                         <img className="card-img-bottom" style={{ width: "80%" }} src={Photo} alt="" title="" />
