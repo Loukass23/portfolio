@@ -4,7 +4,7 @@ import TGIF from '../img/TGIF.jpg';
 import JavaVideo from '../img/battleship.mp4'
 import FootVideo from '../img/football app.mp4'
 import CityVideo from '../img/cityapp.mp4'
-import Brewery from '../img/Brewery.jpg'
+import Brewery from '../img/brewery.jpg'
 
 
 function Projects() {
