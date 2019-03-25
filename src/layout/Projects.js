@@ -4,7 +4,7 @@ import TGIF from '../img/TGIF.jpg';
 import JavaVideo from '../img/battleship.mp4'
 import FootVideo from '../img/football app.mp4'
 import CityVideo from '../img/cityapp.mp4'
-import Brewery from '../img/brewery.jpg'
+import BreweryImg from '../img/brewery.jpg'
 
 
 function Projects() {
@@ -17,7 +17,7 @@ function Projects() {
                             <p className="card-text"></p>
                             <div className="row align-items-center no-gutters mt-2 mb-4 mb-lg-5">
                                 <div className="col-xl-8 col-lg-7">
-                                    <img width="80%" className="img-fluid mb-3 mb-lg-0" src={Brewery} alt="">
+                                    <img width="80%" className="img-fluid mb-3 mb-lg-0" src={BreweryImg} alt="">
                                     </img>
 
                                 </div>
