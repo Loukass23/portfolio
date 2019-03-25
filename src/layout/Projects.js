@@ -3,8 +3,8 @@ import Bookstore from '../img/bookstore.jpg';
 import TGIF from '../img/TGIF.jpg';
 import JavaVideo from '../img/battleship.mp4'
 import FootVideo from '../img/football app.mp4'
-import CityVideo from '../img/cityapp.mp4'
-import BreweryImg from '../img/brewery.jpg'
+import CityVideo from '../img/cityapp.mp4';
+import BreweryImg from '../img/brewery.jpg';
 
 
 function Projects() {
