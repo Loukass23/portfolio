@@ -60,8 +60,8 @@ function Projects() {
                                 </div>
                                 <div className="col-xl-4 col-lg-5 ">
                                     <div className="featured-text text-center text-lg-left">
-                                        <h4>FlightoClock Web App</h4>
-                                        <p className=" mb-0">Mobile web app for blogger influencer</p>
+                                        <h4>City Itinerary Web App</h4>
+                                        <p className=" mb-0">Mobile web app collaborative itineraries plans</p>
                                         <div className="row d-flex justify-content-center my-2">
                                             <i className="fab fa-2x fa-react"></i>
                                             <i className="fab fa-2x fa-css3"></i>
